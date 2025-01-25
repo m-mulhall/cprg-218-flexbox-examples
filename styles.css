@@ -1,0 +1,34 @@
+
+/*star applies to all*/
+
+*{
+  box-sizing: border-box;
+}
+
+/*align-items aligns horizontially*/
+
+header{
+  background-color: #dccfba;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+main{
+  display: flex;
+  gap: 1rem;
+}
+
+section{
+  flex: 1;
+}
+
+/*# targets an id tag*/
+
+#appetizers{
+flex: 2;
+}
+
+section ul li span{
+  font-weight: bold;
+}
